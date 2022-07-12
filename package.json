@@ -1,12 +1,15 @@
 {
-  "name": "aaa",
-  "version": "1.0.0",
+  "name": "jy-public.css",
+  "version": "1.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "index.css",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "sass --watch sass/index.scss index.css --style compressed"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.53.0"
+  }
 }
