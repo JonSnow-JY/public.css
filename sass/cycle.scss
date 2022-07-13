@@ -51,7 +51,7 @@
   }
 }
 
-@for $index from 12 to 30 {
+@for $index from 12 to 50 {
   $size: #{$index}px !important;
 
   .fz#{$index} {
