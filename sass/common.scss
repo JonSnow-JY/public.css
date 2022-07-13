@@ -26,6 +26,10 @@
   color: #fff;
 }
 
+.bgf {
+  background-color: #fff;
+}
+
 .color-3 {
   color: $color-3;
 }
@@ -36,4 +40,20 @@
 
 .color-9 {
   color: $color-9;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.none {
+  display: none;
+}
+
+.block {
+  display: block;
 }
