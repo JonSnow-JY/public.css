@@ -1,4 +1,4 @@
-@import './var';
+@import "./var";
 
 * {
   box-sizing: border-box;
@@ -70,4 +70,10 @@
 
 .block {
   display: block;
+}
+
+.yScroll {
+  .el-scrollbar__wrap {
+    overflow-x: hidden;
+  }
 }
