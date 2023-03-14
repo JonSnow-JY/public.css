@@ -68,6 +68,13 @@
   position: fixed;
 }
 
+.fixed-bottom {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
 .hidden {
   display: none;
 }
