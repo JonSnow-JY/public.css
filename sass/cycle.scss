@@ -49,18 +49,6 @@
     padding-left: $size;
     padding-right: $size;
   }
-}
-
-@for $index from 0 to 15 {
-  $size: #{$index}px !important;
-
-  .r#{$index} {
-    border-radius: $size;
-  }
-}
-
-@for $index from 0 to 50 {
-  $size: #{$index}px !important;
 
   .w#{$index} {
     width: $size;
@@ -92,6 +80,14 @@
   }
   .bottom#{$index} {
     bottom: $size;
+  }
+}
+
+@for $index from 0 to 15 {
+  $size: #{$index}px !important;
+
+  .r#{$index} {
+    border-radius: $size;
   }
 }
 
