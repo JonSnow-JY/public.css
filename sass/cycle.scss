@@ -51,18 +51,6 @@
   }
 }
 
-@for $index from 0 to 50 {
-  $size: #{$index}px !important;
-
-  .fz#{$index} {
-    font-size: $size;
-  }
-
-  .lh#{$index} {
-    line-height: $size;
-  }
-}
-
 @for $index from 0 to 15 {
   $size: #{$index}px !important;
 
@@ -83,6 +71,27 @@
   .wh#{$index} {
     width: $size;
     height: $size;
+  }
+
+  .fz#{$index} {
+    font-size: $size;
+  }
+
+  .lh#{$index} {
+    line-height: $size;
+  }
+
+  .top#{$index} {
+    top: $size;
+  }
+  .left#{$index} {
+    left: $size;
+  }
+  .right#{$index} {
+    right: $size;
+  }
+  .bottom#{$index} {
+    bottom: $size;
   }
 }
 
